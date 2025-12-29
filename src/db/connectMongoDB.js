@@ -1,4 +1,3 @@
-// src/db/connectMongoDB.js
 import mongoose from 'mongoose';
 
 export const connectMongoDB = async () => {
@@ -11,4 +10,3 @@ export const connectMongoDB = async () => {
     process.exit(1); // аварійне завершення програми
   }
 };
-
